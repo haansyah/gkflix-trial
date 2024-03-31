@@ -1,13 +1,5 @@
-import { View } from "react-native";
-import React from "react";
-import Home from "./screens/pages/Home";
+import NavigationRouter from "./router/NavigationRouter";
 
-const App = () => {
-  return (
-    <View>
-      <Home />
-    </View>
-  );
-};
-
-export default App;
+export default function App() {
+  return <NavigationRouter />;
+}
